@@ -12,7 +12,7 @@ export default function MemoryPostCard({ post }: MemoryPostCardProps) {
     <article className={`memory-card ${isFacebook ? "facebook-memory-card" : ""}`}>
       <header className="memory-card-header">
         <div>
-          <h2>{post.name}</h2>
+          {post.name && <h2>{post.name}</h2>}
 
           {post.relation && <p>{post.relation}</p>}
         </div>

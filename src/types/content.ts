@@ -8,7 +8,7 @@ export type Photo = {
 
 export type MemoryPost = {
   id: string;
-  name: string;
+  name?: string;
   relation?: string;
   text?: string;
   imageSrc?: string;
