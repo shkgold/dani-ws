@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder memorial photo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d7b889"/>
+      <stop offset="0.55" stop-color="#f6ead8"/>
+      <stop offset="1" stop-color="#8d7254"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.08"/>
+      </feComponentTransfer>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g opacity="0.18" filter="url(#grain)">
+    <rect width="1200" height="800" fill="#000"/>
+  </g>
+  <circle cx="600" cy="330" r="118" fill="rgba(255,255,255,0.34)"/>
+  <rect x="355" y="485" width="490" height="34" rx="17" fill="rgba(255,255,255,0.38)"/>
+  <rect x="430" y="545" width="340" height="24" rx="12" fill="rgba(255,255,255,0.28)"/>
+  <text x="600" y="695" text-anchor="middle" font-size="34" font-family="Georgia, serif" fill="rgba(45,35,25,0.58)">Replace with your photo</text>
+</svg>
