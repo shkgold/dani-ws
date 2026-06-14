@@ -23,12 +23,12 @@ export const heroPhotos: Photo[] = [
   },
   {
     id: "hero-05",
-    src: "/photos/hero/5.jpg",
+    src: "/photos/hero/5.jpeg",
     alt: "תמונה משפחתית יקרה",
   },
   {
     id: "hero-06",
-    src: "/photos/hero/6.jpg",
+    src: "/photos/hero/6.jpeg",
     alt: "תמונה משפחתית יקרה",
   },
   {
